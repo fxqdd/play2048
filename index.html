@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <link rel="canonical" href="https://play2048.shop">
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -96,6 +97,19 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 16px;
+    }
+
+        /* 标题样式 */
+    .site-title {
+      margin: 4px 0 0 0;
+      font-size: 1.6rem;
+      letter-spacing: 0.3px;
+    }
+    .site-subtitle {
+      margin: 0 0 6px 0;
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 600;
     }
 
     /* 游戏简介卡片:play2048 */
@@ -204,6 +218,8 @@
 
   <main class="container">
     <!-- 游戏区（全宽） -->
+    <h1 class="site-title">Play2048 game center </h1>
+    <h3 class="site-subtitle">Easy to play · Casual · Web Play</h3>
     <section class="card game-card full-bleed">
       <div class="game-header">
         <div class="game-title">Game Area</div>
@@ -286,6 +302,7 @@
 </body>
 
 </html>
+
 
 
 
